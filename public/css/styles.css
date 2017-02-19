@@ -1,0 +1,50 @@
+.nav > li {
+  position:relative;
+  display:inline;
+}
+
+#logo {
+  max-height:90px;
+}
+
+.navbar {
+  height:160px;
+  background:rgba(255,255,255,0.75);
+}
+
+.overlay {
+}
+
+.jumbotron {
+  border-radius:20px;
+  padding:40px;
+  max-width:800px;
+  margin:0 auto;
+  background:rgba(255,255,255, 0.75);
+}
+
+div#Project-detail.thumbnail {
+}
+
+.boxshadow {
+  box-shadow:0 0 12px black;
+}
+
+.mg a {
+    margin-right: 26px;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+
+.mg a:hover{
+  margin-right: 26px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+#logos {
+  margin: 0 auto;
+  padding: 35px 35px;
+
+}

@@ -1,0 +1,92 @@
+div.jumbotron.carousel-hero {
+  color:#fff;
+  text-align:center;
+  background-size:cover;
+  background-position:center;
+  padding-top:100px;
+  padding-bottom:100px;
+  margin-bottom:0;
+}
+
+div.jumbotron.hero-nature {
+  background-image:url('../../assets/img/hero-background-nature.jpg');
+}
+
+div.jumbotron.hero-photography {
+  background-image:url('../../assets/img/hero-background-photography.jpg');
+}
+
+div.jumbotron.hero-technology {
+  background-image:url('../../assets/img/hero-background-technology.jpg');
+}
+
+div.jumbotron.hero-food {
+  background-image:url('../../assets/img/hero-background-food.jpg');
+}
+
+div.jumbotron.hero-music {
+  background-image:url('../../assets/img/hero-background-music.jpg');
+}
+
+div.jumbotron.hero-travel {
+  background-image:url('../../assets/img/hero-background-travel.jpg');
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title {
+  text-shadow:0 3px 3px rgba(0,0,0,0.4);
+  color:#fff;
+}
+
+p.hero-subtitle {
+  max-width:600px;
+  margin:25px auto;
+  padding:10px 15px;
+  color:#fff;
+}
+
+p.slogan {
+  margin-left:10px;
+}
+
+#intro {
+  text-align:center;
+  padding:40px;
+  background-size:cover;
+  margin-top:185px;
+  max-height:800px;
+}
+
+#intro h1 {
+  text-align:center;
+}
+
+#intro p {
+  text-align:center;
+  padding-bottom:10px;
+  margin:10px 10px auto;
+}
+
+#intro.jumbotron {
+  border-radius:20px;
+  padding:40px;
+  max-width:800px;
+  margin:0 auto;
+}
+
+#projects {
+  position:relative;
+  top:190px;
+  text-align:center;
+}
+
+#projects h2 {
+}
+
+#Project-detail {
+  top:195px;
+  margin:0 auto;
+  position:relative;
+  padding:25px;
+  background:rgba(255,255,255,0.75);
+}
+
