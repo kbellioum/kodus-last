@@ -8,7 +8,7 @@ var config = {
     app: {
       name: 'xml-project'
     },
-    port: process.env.PORT || 3000,
+    port: process.env.PORT || 3008,
     db: 'mongodb://localhost/xml-project-development'
   },
 
@@ -17,7 +17,7 @@ var config = {
     app: {
       name: 'xml-project'
     },
-    port: process.env.PORT || 3000,
+    port: process.env.PORT || 3008,
     db: 'mongodb://localhost/xml-project-test'
   },
 
@@ -26,7 +26,7 @@ var config = {
     app: {
       name: 'xml-project'
     },
-    port: process.env.PORT || 3000,
+    port: process.env.PORT || 3008,
     db: 'mongodb://localhost/xml-project-production'
   }
 };
