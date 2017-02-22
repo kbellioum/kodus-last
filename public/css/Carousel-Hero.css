@@ -46,6 +46,7 @@ p.hero-subtitle {
 
 p.slogan {
   margin-left:10px;
+  color: black;
 }
 
 #intro {
@@ -89,4 +90,3 @@ p.slogan {
   padding:25px;
   background:rgba(255,255,255,0.75);
 }
-

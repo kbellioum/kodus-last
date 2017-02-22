@@ -9,6 +9,7 @@
                 <div class="info-box"><i class="glyphicon glyphicon-map-marker my-info-icons"></i><span class="text-uppercase text-info">Address: </span><span>8, Avenue Mohamed Sijilmassi Casablanca Maroc</span></div>
                 <div class="info-box"><i class="glyphicon glyphicon-envelope my-info-icons"></i><span class="text-uppercase text-info">Email: </span><span>contact@kodusdb.com </span></div>
                 <div class="info-box"><i class="glyphicon glyphicon-phone-alt my-info-icons"></i><span class="text-uppercase text-info">Phone: </span><span>+212522000000 </span></div>
+                <div class="info-box"><i id="trigger" class="glyphicon glyphicon-phone-alt my-info-icons"></i><span class="text-uppercase text-info">Mobile: </span><span id="affiche">+21266000000 </span></div>
             </div>
             <div class="col-md-6 col-sm-6 col-xs-12 site-form">
                 <div class="boxshadow thumbnail">
@@ -22,3 +23,16 @@
 
 
 <% include footer %>
+
+
+<script>
+  $(document).ready(function(){
+    $("#affiche").css("display", "none");
+    $("#trigger").click(function(){
+      console.log("OK");
+      $("#affiche").toggle("display");
+
+    });
+  });
+
+</script>
