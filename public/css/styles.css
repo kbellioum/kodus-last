@@ -1,3 +1,7 @@
+body{
+  background-image: url('../img/bgimg.png');
+}
+
 .nav > li {
   position:relative;
   display:inline;
