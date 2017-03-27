@@ -16,6 +16,16 @@ body{
   background:rgba(255,255,255,0.75);
 }
 
+div.custom {
+  height: 170px;
+}
+
+.custom img {
+  height:170px;
+  width: 350px;
+}
+
+
 .overlay {
 }
 
@@ -99,4 +109,8 @@ div#Project-detail.thumbnail {
 
 .caption a:hover {
   text-decoration: none;
+}
+
+.caption a {
+  color: white;
 }
