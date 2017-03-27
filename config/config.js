@@ -8,8 +8,8 @@ var config = {
     app: {
       name: 'xml-project'
     },
-    port: process.env.PORT || 3008,
-    db: 'mongodb://localhost/xml-project-development'
+    port: process.env.PORT || 3008
+    //db: 'mongodb://localhost/xml-project-development'
   },
 
   test: {
@@ -17,8 +17,8 @@ var config = {
     app: {
       name: 'xml-project'
     },
-    port: process.env.PORT || 3008,
-    db: 'mongodb://localhost/xml-project-test'
+    port: process.env.PORT || 3008
+    //db: 'mongodb://localhost/xml-project-test'
   },
 
   production: {
@@ -26,8 +26,8 @@ var config = {
     app: {
       name: 'xml-project'
     },
-    port: process.env.PORT || 3008,
-    db: 'mongodb://localhost/xml-project-production'
+    port: process.env.PORT || 3008
+    //db: 'mongodb://localhost/xml-project-production'
   }
 };
 

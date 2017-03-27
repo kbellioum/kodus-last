@@ -1,18 +1,18 @@
 // Example model
 
-var mongoose = require('mongoose'),
-  Schema = mongoose.Schema;
+// var mongoose = require('mongoose'),
+//   Schema = mongoose.Schema;
 
-var ArticleSchema = new Schema({
-  title: String,
-  url: String,
-  text: String
-});
+// var ArticleSchema = new Schema({
+//   title: String,
+//   url: String,
+//   text: String
+// });
 
-ArticleSchema.virtual('date')
-  .get(function(){
-    return this._id.getTimestamp();
-  });
+// ArticleSchema.virtual('date')
+//   .get(function(){
+//     return this._id.getTimestamp();
+//   });
 
-mongoose.model('Article', ArticleSchema);
+// mongoose.model('Article', ArticleSchema);
 
