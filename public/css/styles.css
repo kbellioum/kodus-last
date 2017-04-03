@@ -55,6 +55,23 @@ div.custom {
 
 }
 
+.jumbotron-ap {
+  border-radius: 20px;
+  padding: 1px;
+  max-width: 650px;
+  min-width: 500px;
+  margin: 0px auto;
+  background: rgba(255,255,255, 0.75);
+  position: absolute;
+  left: 25%;
+  bottom: 5%;
+  top: 30%;
+  margin-right: 20px;
+  max-height: 136px;
+  min-height: 109px;
+
+}
+
 @media (max-width:414px) {
   .jumbotron {
     border-radius: 9px;
@@ -113,8 +130,14 @@ div#Project-detail.thumbnail {
 
 .caption a {
   color: white;
+  padding-bottom: 2pxs;
 }
 
 .item {
   margin: 10px;
+}
+
+.thumbnail .caption {
+    padding: 12px;
+    color: #333;
 }
