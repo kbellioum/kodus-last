@@ -7,10 +7,10 @@ jQuery(function($){
 					// Components
 					slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 					slides 					:  	[			// Slideshow Images
-														{image : './img/img1.jpg'},
-														{image : './img/img2.jpg'},
-                            {image : './img/img3.jpg'},
-                            {image : './img/img4.jpg'},
+														{image : './img/slider/1.jpg'},
+														{image : './img/slider/2.jpg'},
+                            {image : './img/slider/3.jpg'},
+                            {image : './img/slider/4.jpg'},
 												]
 				});
 		    });

@@ -114,3 +114,7 @@ div#Project-detail.thumbnail {
 .caption a {
   color: white;
 }
+
+.item {
+  margin: 10px;
+}
